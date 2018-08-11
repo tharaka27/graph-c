@@ -14,3 +14,74 @@ graphT *myg1=NULL , *myg2 = NULL;
      }
     myg1 = (graphT *)malloc(sizeof(graphT));
 ```
+They you can use following method to implement the graph as you wish.
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+```
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
+
+### 1.initialize the graph
+This will initialize the graph. There are two parameters which you should pass.
+One is the graph *myg1* second is the directionality of the graph.
+*TRUE* if directed *FALSE* if undirected.
+```c
+initialize_graph(myg1, FALSE);
