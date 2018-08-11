@@ -2,9 +2,9 @@
 
 This is a code of a graph implemented in C.
 
-<strong>What you can do with this graph ?<strong>
+<strong>What you can do with this graph ?</strong>
   
-1). <u>initialize graph<u>
+1). <u>initialize graph</u>
 
 read_graph(graphT *g,char *filename);
 insert_edge(graphT *g, int x,int y,int w);
