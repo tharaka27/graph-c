@@ -101,20 +101,15 @@ void insert_edge(graphT *g,int x,int y,int w){
         fprintf(stderr,"Cannot allocate memory for the node" );
         exit(-1);
     }
-
     pe->weight = w ;
     pe->y = y;
-    
     // insert_edge has modified in way even if the user inputs
-    // in different orer to make the linked list in order
-    if(g->edges[x] == NULL){
-        
+    // in different order to make the linked list in order
+    if(g->edges[x] == NULL){       
         pe->next = g->edges[x];
         g->edges[x] = pe;
     }else{
-
         //if this node already exists we should not ad it again a value
-        // so
         edgenodeT *checker;
         checker = g->edges[x];
         while(checker != NULL){
@@ -123,12 +118,9 @@ void insert_edge(graphT *g,int x,int y,int w){
             }
             checker = checker->next;
         }
-
         // if there is no node there , then we can add that node
-
         edgenodeT *qe;
-        qe = g->edges[x];
-        
+        qe = g->edges[x];       
         if(qe->y > pe->y){
            pe->next = qe;
            g->edges[x] = pe;
