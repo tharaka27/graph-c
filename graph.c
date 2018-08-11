@@ -43,6 +43,19 @@ void num_of_conn_comp(graphT *g);
 graphT *copy_graph(graphT *g);
 
 
+/**
+int main(int argc, char *argv[]){
+  
+//main goes here or you can import this making your own 
+// header file
+// graph.c
+       
+       return 0;
+}
+
+**/
+
+
 
 void initialize_graph(graphT *g,bool directed){
     int i;
