@@ -45,10 +45,19 @@ graphT *copy_graph(graphT *g);
 
 /**
 int main(int argc, char *argv[]){
-  
-//main goes here or you can import this making your own 
-// header file
-// graph.c
+     graphT *myg1=NULL , *myg2 = NULL;
+     if(argc <2 ){
+         fprintf(stderr,"Usage: %s graph_name" , argv[0]);
+         exit(-1);
+     }
+     myg1 = (graphT *)malloc(sizeof(graphT));
+     if(myg1==NULL){
+        fprintf(stderr,"Cannot allocate memory for the graph");
+        exit(-1);
+     initialize_graph(myg1, FALSE);
+     read_graph(myg1, argv[1]);
+     print_graph(myg1, "myg1");
+
        
        return 0;
 }
