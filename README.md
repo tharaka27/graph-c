@@ -1,6 +1,6 @@
 # graph-c
 
-<strong>This is a code of a graph implemented in C.</strong>
+<strong>This is a code of a graph implemented in C. Adjacency lists have been used to make the graph</strong>
 
 # How to use this graph ?
 
